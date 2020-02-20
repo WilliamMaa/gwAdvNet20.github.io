@@ -67,6 +67,11 @@ V8 is a JIT(Just-In-Time) compiler, which means it compiles the program at the r
 
 Since V8 is built using C++, large portion of Node.js is also built with C++ runtime. Even though it does not affect how a JavaScript program is executed by Node.js, but some of the feature is made available because of C++. We will see an example of that later.
 
+When you start executing a JavaScript server. Node will do several things.
+ -  First Node will look at all of the `require()` function and "requires" all of the modules. Because node is asynchronous, it will then check all the events in the program and register the callback function followed that event.
+ -  Then Node will enter its Event Loop, using the registered callback functions to respond to incoming client requests.
+ -  Depending on the type of request things will be handled differently, and we will talk about that in the next section.
+
 # How Node.js handle requests?
 
 ## single-thread
