@@ -20,6 +20,10 @@ After the installation you also need to setup the environment variables.
  -  For Windows system the default path is `C:\Program Files\nodejs`. To add it to the environment variable you can ran the following command on your command line prompt:
  `SET PATH=C:\Program Files\nodejs;%PATH%`
  And then run `node -v` to check if you had successfully installed Node.js.
+ 
+     ![Node Version](./node_version.PNG)
+
+     This means you had successfully installed Node
  -  For Linux system you can run the following command:
     ```
     #The last part is depend on the version you installed
@@ -28,9 +32,6 @@ After the installation you also need to setup the environment variables.
     ```
     Finally run `node -v` to check if you had successfully installed.
 
-    ![Node Version](./node_version.PNG)
-
-    This means you had successfully installed Node
  -  For MacOS you can either install by downloading from the website or you can use brew to install, simply run `brew install node` to install Node.js.
 
 # Intro of Node.js
