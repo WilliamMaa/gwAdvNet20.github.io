@@ -27,6 +27,7 @@ After the installation you also need to setup the environment variables.
     export PATH=$NODE_HOME/bin:$PATH
     ```
     Finally run `node -v` to check if you had successfully installed.
+    ![Node Version](./node_version.PNG)
  -  For MacOS you can either install by downloading from the website or you can use brew to install, simply run `brew install node` to install Node.js.
 
 # Intro of Node.js
