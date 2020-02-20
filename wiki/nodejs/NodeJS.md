@@ -12,9 +12,9 @@ In this blog we will introduce the basic about Node.js and how Node.js's event l
 ---
 
 # Setup Environment
-To set up a node.js environment, you can either download the installer from the node.js website, https://nodejs.org/en/. It provides long term support version and the latest version for Windows, MacOS, and Linux.
+To set up a node.js environment, you can either download the installer from the node.js website, [**node installer download**](https://nodejs.org/en/). It provides long term support version and the latest version for Windows, MacOS, and Linux.
 
-Another way to do is to install it via package manager. All information can be found on the same website https://nodejs.org/en/download/package-manager/.
+Another way to do is to install it via package manager. All information can be found on the same website [**node package download**](https://nodejs.org/en/download/package-manager/).
 
 ![Node Install](./node_install.PNG)
 
