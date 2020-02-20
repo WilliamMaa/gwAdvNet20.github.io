@@ -16,11 +16,13 @@ To set up a node.js environment, you can either download the installer from the 
 
 Another way to do is to install it via package manager. All information can be found on the same website https://nodejs.org/en/download/package-manager/.
 
+![Node Install](./node_install.PNG)
+
 After the installation you also need to setup the environment variables.
  -  For Windows system the default path is `C:\Program Files\nodejs`. To add it to the environment variable you can ran the following command on your command line prompt:
  `SET PATH=C:\Program Files\nodejs;%PATH%`
  And then run `node -v` to check if you had successfully installed Node.js.
- 
+
      ![Node Version](./node_version.PNG)
 
      This means you had successfully installed Node
