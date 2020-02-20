@@ -19,9 +19,9 @@ After the installation you also need to setup the environment variables.
  `SET PATH=C:\Program Files\nodejs;%PATH%`
  And then run `node -v` to check if you had successfully installed Node.js.
  - For Linux system you can run the following command:
-    #The last part is depend on the version you installed
-    export NODE_HOME=/usr/local/node/12.15.0
-    export PATH=$NODE_HOME/bin:$PATH
+      #The last part is depend on the version you installed
+      export NODE_HOME=/usr/local/node/12.15.0
+      export PATH=$NODE_HOME/bin:$PATH
   Finally run `node -v` to check if you had successfully installed.
  - For MacOS you can either install by downloading from the website or you can use brew to install, simply run `brew install node` to install Node.js.
 
